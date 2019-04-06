@@ -1,0 +1,79 @@
+body {
+    width: 90%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 5% 15%;
+    
+}
+sub {
+    font-size: 10px;
+}
+table {
+    border-collapse: collapse;
+}
+.left {
+    text-align: left;
+}
+.noborder {
+    border-bottom: none;
+}
+th {
+    background-color: white;
+}
+
+th {
+    border-bottom: 2px solid gray;
+    padding: 10px 10px;
+    font-size: 20px;
+}
+
+tr:nth-child(odd) {
+    background-color: lightgrey;
+}
+
+tr:hover {
+    background-color: lightsteelblue;
+}
+td {
+    padding: 5px 25px;
+    border-bottom: 2px solid gray;
+    border-collapse: collapse;
+    text-align: center;
+    
+}
+.one, .two, .three, .four, .five {
+    color: white;
+    font-weight: normal;
+}
+
+.fa-exclamation-circle {
+    color: grey;
+}
+.fa-remove {
+    color: red;
+}
+.fa-check {
+    color: green;
+}
+
+.one {
+    background-color: rgb(70, 70, 236);
+    padding: 10px 25px;
+    
+}
+
+.two {
+    background-color: rgb(12, 150, 0);
+    padding: 10px 25px;
+}
+.three {
+    background-color: rgb(218, 203, 0);
+    padding: 10px 25px;
+}
+.four {
+    background-color: rgb(241, 116, 43);
+    padding: 10px 25px;
+}
+.five {
+    background-color: rgb(187, 0, 0);
+    padding: 10px 25px;
+}
